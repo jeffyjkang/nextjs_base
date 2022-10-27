@@ -1,5 +1,13 @@
-import { NextPage } from "next";
+import Head from 'next/head';
 
 export default function HomePage() {
-  return <div>Hello World</div>
+  return (
+    <>
+      <Head>
+        <title>Next App</title>
+      </Head>
+      <h1>Next App</h1>
+
+    </>
+  )
 }
