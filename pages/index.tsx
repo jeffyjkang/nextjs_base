@@ -6,8 +6,7 @@ export default function HomePage() {
       <Head>
         <title>Next App</title>
       </Head>
-      <h1>Next App</h1>
-
+      <h1 className='text-3xl font-bold underline'>Next App</h1>
     </>
   )
 }
